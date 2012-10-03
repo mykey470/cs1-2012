@@ -18,6 +18,14 @@
 
 Joshua Bloch, Effective Java (2nd Edition), Prentice-Hall, (May 28, 2008).
 
+## 小テスト
+
+1. [第一回](https://github.com/wakita/cs1-2012/wiki/KW-Test01)
+
+## 課題
+
+1. [第一回](https://github.com/wakita/cs1-2012/wiki/KW-Assignment01)
+
 ## 有用な情報集
 
 - [本サイト (GitHub)](https://github.com/wakita/cs1-2012)
