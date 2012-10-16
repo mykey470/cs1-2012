@@ -2,7 +2,9 @@
 
 計算機科学第一・講義のサポートサイトです．講義で使用する[スライド](cs1-2012/tree/master/slides)と[プログラム例](cs1-2012/tree/master/src)，[小テスト](cs1-2012/tree/master/tests)の内容など，講義の履修にあたって必要な資料はすべてこのサイトに保存します．
 
-## 小テストと課題
+## 講義資料
+
+- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf)
 
 - 小テスト --- [01](https://github.com/wakita/cs1-2012/wiki/KW-Test01)
 
@@ -23,6 +25,8 @@
 ## 教科書
 
 Joshua Bloch, Effective Java (2nd Edition), Prentice-Hall, (May 28, 2008).
+
+その他の参考図書は，[Wikiの参考図書のページ](https://github.com/wakita/cs1-2012/wiki/Readings)をご覧下さい．
 
 ## 有用な情報集
 
