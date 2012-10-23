@@ -4,7 +4,7 @@
 
 ## 講義資料
 
-- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf)
+- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf), [03](https://github.com/wakita/cs1-2012/blob/master/slides/3.pdf)
 
 - 小テスト --- [01](https://github.com/wakita/cs1-2012/wiki/KW-Test01)
 
