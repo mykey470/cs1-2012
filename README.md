@@ -4,11 +4,13 @@
 
 ## 講義資料
 
-- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf), [03](https://github.com/wakita/cs1-2012/blob/master/slides/3.pdf)
+- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf), [03](https://github.com/wakita/cs1-2012/blob/master/slides/3.pdf), [04](https://github.com/wakita/cs1-2012/blob/master/slides/4.pdf)
+
+- [プログラム集](https://github.com/wakita/cs1-2012/tree/master/src/jp/ac/titech/is/cs1)
 
 - 小テスト --- [01](https://github.com/wakita/cs1-2012/wiki/KW-Test01)
 
-- 課題 --- [01](https://github.com/wakita/cs1-2012/wiki/KW-Assignment01)
+- 課題 --- [01](https://github.com/wakita/cs1-2012/wiki/KW-Assignment01), [02](https://github.com/wakita/cs1-2012/wiki/KW-Assignment02)
 
 ## スタッフ
 
