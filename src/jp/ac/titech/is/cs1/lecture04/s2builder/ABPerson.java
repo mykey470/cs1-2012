@@ -5,7 +5,7 @@ import java.util.*;
 class ABPerson {
 	String name, yomi, phone, email, birthday;
 
-	ABPerson(Builder b) {
+	private ABPerson(Builder b) {
 		this.name = b.name;
 		this.yomi = b.yomi;
 		this.phone = b.phone;
@@ -26,7 +26,7 @@ class ABPerson {
 	public static class Builder {
 		private String name, yomi, phone, email, birthday;
 
-		Builder(String name) {
+		public Builder(String name) {
 			this.name = name;
 		}
 
@@ -50,7 +50,7 @@ class ABPerson {
 			return this;
 		}
 
-		Builder(Builder b) {
+		public Builder(Builder b) {
 			this.name = b.name;
 			this.yomi = b.yomi;
 			this.phone = b.phone;
