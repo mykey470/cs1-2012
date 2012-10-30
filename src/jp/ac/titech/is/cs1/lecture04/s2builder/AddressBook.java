@@ -11,6 +11,7 @@ public class AddressBook {
 		
 		ABPerson kwakita =
 				(new ABPerson.Builder(nobody).yomi("わきたけん").build());
+		// nobody.yomi("わきたけん").build() としなかった理由について考えなさい。
 		System.out.println(kwakita);
 	}
 
