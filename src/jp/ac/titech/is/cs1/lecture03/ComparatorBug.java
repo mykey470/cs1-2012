@@ -1,4 +1,4 @@
-package lecture03;
+package jp.ac.titech.is.cs1.lecture03;
 
 public class ComparatorBug {
 	public int compare1(Integer x1, Integer x2) {

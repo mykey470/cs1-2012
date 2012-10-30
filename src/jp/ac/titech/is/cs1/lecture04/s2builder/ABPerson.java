@@ -1,4 +1,4 @@
-package lecture04.s2builder;
+package jp.ac.titech.is.cs1.lecture04.s2builder;
 
 import java.util.*;
 

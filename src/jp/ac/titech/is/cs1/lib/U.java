@@ -1,4 +1,4 @@
-package lib;
+package jp.ac.titech.is.cs1.lib;
 
 import java.io.InputStream;
 import java.io.PrintStream;

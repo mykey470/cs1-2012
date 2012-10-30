@@ -1,4 +1,4 @@
-package lecture04.s1static_factory_method;
+package jp.ac.titech.is.cs1.lecture04.s1static_factory_method;
 
 public class BooleanMain {
 	Boolean[] bools = null;

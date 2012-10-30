@@ -1,4 +1,4 @@
-package lecture03;
+package jp.ac.titech.is.cs1.lecture03;
 
 public class IncrementBenchmark {
 	private void run() {

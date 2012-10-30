@@ -1,4 +1,4 @@
-package lecture01;
+package jp.ac.titech.is.cs1.lecture01;
 import java.util.*;
 
 // Template.java の形式に沿って定義したソートプログラムの例

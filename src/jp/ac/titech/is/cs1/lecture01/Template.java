@@ -1,4 +1,4 @@
-package lecture01;
+package jp.ac.titech.is.cs1.lecture01;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

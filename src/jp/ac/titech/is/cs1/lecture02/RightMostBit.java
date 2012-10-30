@@ -1,4 +1,4 @@
-package lecture02;
+package jp.ac.titech.is.cs1.lecture02;
 
 import static java.lang.System.out;
 
