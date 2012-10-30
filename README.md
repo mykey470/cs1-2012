@@ -6,6 +6,8 @@
 
 - スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf?raw=true), [03](https://github.com/wakita/cs1-2012/blob/master/slides/3.pdf?raw=true), [04](https://github.com/wakita/cs1-2012/blob/master/slides/4.pdf?raw=true)
 
+    リンクをクリックすると、すぐにPDFファイルのダウンロードが始まります。ダウンロードが終了したら、ブラウザのダウンロードフォルダからスライドのPDFを開いて下さい。
+
 - [プログラム集](https://github.com/wakita/cs1-2012/tree/master/src/jp/ac/titech/is/cs1)
 
 - 小テスト --- [01](https://github.com/wakita/cs1-2012/wiki/KW-Test01)
