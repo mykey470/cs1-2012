@@ -19,7 +19,7 @@ class ABPerson {
 		output.add("Yomi: " + yomi);
 		output.add("Phone: " + phone);
 		output.add("Email: " + email);
-		output.add("Birthday: " + email);
+		output.add("Birthday: " + birthday);
 		return output.toString();
 	}
 
