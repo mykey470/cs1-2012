@@ -54,7 +54,7 @@ class ABPerson {
 			this.name = b.name;
 			this.yomi = b.yomi;
 			this.phone = b.phone;
-			this.email = b.phone;
+			this.email = b.email;
 			this.birthday = b.birthday;
 		}
 
