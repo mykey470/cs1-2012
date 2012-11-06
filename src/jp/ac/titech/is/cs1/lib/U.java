@@ -36,6 +36,14 @@ public class U {
     public static long timerStop() {
         return System.currentTimeMillis() - timerT;
     }
+    
+    private static Runtime r = Runtime.getRuntime();
+	
+	public static long memoryUsage() {
+		System.gc();
+		return r.totalMemory() - r.freeMemory();
+	}
+
 
     private U() {
     }

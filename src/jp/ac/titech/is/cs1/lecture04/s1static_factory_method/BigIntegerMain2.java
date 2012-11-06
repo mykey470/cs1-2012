@@ -2,19 +2,16 @@ package jp.ac.titech.is.cs1.lecture04.s1static_factory_method;
 
 import java.math.BigInteger;
 
+import static jp.ac.titech.is.cs1.lib.U.out;
+import static jp.ac.titech.is.cs1.lib.U.memoryUsage;
+
 public class BigIntegerMain2 {
 	public BigInteger[] bigints = null;
 
-	Runtime r = Runtime.getRuntime();
 	long time, usage;
 	
-	private long memoryUsage() {
-		System.gc();
-		return r.totalMemory() - r.freeMemory();
-	}
-
 	private void at_start(String testname) {
-		System.out.print(testname + ": ");
+		out.print(testname + ": ");
 		bigints = new BigInteger[1 << 20];
 		System.gc();
 		usage = memoryUsage();
@@ -24,7 +21,7 @@ public class BigIntegerMain2 {
 	private void at_stop() {
 		long t = System.currentTimeMillis() - time;
 		long m = memoryUsage() - usage;
-		System.out.printf("計算時間 - %5dms, メモリ使用量: %8dB\n", t, m);
+		out.printf("計算時間 - %5dms, メモリ使用量: %8dB\n", t, m);
 	}
 
 	private void test1(byte n) {
@@ -43,11 +40,10 @@ public class BigIntegerMain2 {
 	}
 
 	private void run() {
-		System.out
-				.println("BitInteger の static factory method の性能を new と比較するテスト");
+		out.println("BitInteger の static factory method の性能を new と比較するテスト");
 		for (int i = 0; i < 20; i++) {
 			byte b = (byte) i;
-			System.out.printf("b = %d\n", b);
+			out.printf("b = %d\n", b);
 			test1(b);
 			test2(b);
 			System.out.println();
