@@ -5,6 +5,13 @@ import java.io.PrintStream;
 import java.util.*;
 
 public class U {
+	/*
+	 *  コンストラクタを private 宣言することで、このクラスを new できないように設定している。
+	 *  このクラスのようなユーティリティを定義するクラスを定義するときの常套手段です。
+	 *  Effective Java: Item 4 --- Private constructor
+	 */
+    private U() {}
+	
     public static final InputStream in = System.in;
     public static final PrintStream out = System.out, err = System.err;
 
@@ -43,8 +50,4 @@ public class U {
 		System.gc();
 		return r.totalMemory() - r.freeMemory();
 	}
-
-
-    private U() {
-    }
 }
