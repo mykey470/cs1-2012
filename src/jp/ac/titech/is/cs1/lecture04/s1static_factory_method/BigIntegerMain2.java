@@ -3,22 +3,27 @@ package jp.ac.titech.is.cs1.lecture04.s1static_factory_method;
 import java.math.BigInteger;
 
 public class BigIntegerMain2 {
-	BigInteger[] bigints = null;
+	public BigInteger[] bigints = null;
 
 	Runtime r = Runtime.getRuntime();
-	long space, time;
+	long time, usage;
+	
+	private long memoryUsage() {
+		System.gc();
+		return r.totalMemory() - r.freeMemory();
+	}
 
 	private void at_start(String testname) {
 		System.out.print(testname + ": ");
 		bigints = new BigInteger[1 << 20];
-		time = System.currentTimeMillis();
 		System.gc();
-		space = r.freeMemory();
+		usage = memoryUsage();
+		time = System.currentTimeMillis();
 	}
 
 	private void at_stop() {
 		long t = System.currentTimeMillis() - time;
-		long m = space - r.freeMemory();
+		long m = memoryUsage() - usage;
 		System.out.printf("計算時間 - %5dms, メモリ使用量: %8dB\n", t, m);
 	}
 
