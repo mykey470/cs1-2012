@@ -41,7 +41,7 @@ public class BigIntegerMain2 {
 
 	private void run() {
 		out.println("BitInteger の static factory method の性能を new と比較するテスト");
-		for (int i = 0; i < 20; i++) {
+		for (int i = -20; i < 20; i++) {
 			byte b = (byte) i;
 			out.printf("b = %d\n", b);
 			test1(b);
