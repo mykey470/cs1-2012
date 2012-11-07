@@ -13,7 +13,7 @@ public class Person1 implements Person {
         birthDate = 日本標準時.getTime();
     }
 
-    public boolean 昭和生れですか？() {
+    public boolean 昭和生れですか() {
         Calendar 日本標準時 = Calendar.getInstance(TimeZone.getTimeZone("JST"));
         日本標準時.set(1926, Calendar.DECEMBER, 24); // 1926/12/25 0:0
         Date 昭和最初の日 = 日本標準時.getTime();
