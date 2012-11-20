@@ -14,7 +14,7 @@ public class PersonTest {
         System.out.println(message);
         long time = System.currentTimeMillis();
         for (int i = 0; i < N; i++)
-            persons[r.nextInt(persons.length)].昭和生れですか？();
+            persons[r.nextInt(persons.length)].昭和生れですか();
         System.out.printf("Elapse time = %.2fs\n\n",
                 (System.currentTimeMillis() - time) / 1000.0);
     }

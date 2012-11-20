@@ -29,7 +29,7 @@ public class Person2 implements Person {
         昭和最後の日 = 日本標準時.getTime();
     }
 
-    public boolean 昭和生れですか？() {
+    public boolean 昭和生れですか() {
         return (birthDate.compareTo(昭和最初の日) >= 0 && birthDate
                 .compareTo(昭和最後の日) < 0);
     }
