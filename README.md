@@ -4,7 +4,7 @@
 
 ## 講義資料
 
-- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf?raw=true), [03](https://github.com/wakita/cs1-2012/blob/master/slides/3.pdf?raw=true), [04](https://github.com/wakita/cs1-2012/blob/master/slides/4.pdf?raw=true)
+- スライド --- [02](https://github.com/wakita/cs1-2012/blob/master/slides/2.pdf?raw=true), [03](https://github.com/wakita/cs1-2012/blob/master/slides/3.pdf?raw=true), [04](https://github.com/wakita/cs1-2012/blob/master/slides/4.pdf?raw=true), [05](https://github.com/wakita/cs1-2012/blob/master/slides/5.pdf?raw=true), [06](https://github.com/wakita/cs1-2012/blob/master/slides/6.pdf?raw=true)
 
     リンクをクリックすると、すぐにPDFファイルのダウンロードが始まります。ダウンロードが終了したら、ブラウザのダウンロードフォルダからスライドのPDFを開いて下さい。
 
