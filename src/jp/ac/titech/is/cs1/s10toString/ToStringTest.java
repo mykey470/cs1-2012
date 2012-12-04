@@ -60,7 +60,7 @@ public class ToStringTest {
     }
     
     @Test
-    public void PhoneNumberE_of() {
+    public void PhoneNumberD_of() {
         out.println();
         PhoneNumber phone = PhoneNumberD.of("(03)0123-0001");
         test("(03)0123-0001", phone);

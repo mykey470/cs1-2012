@@ -5,6 +5,7 @@ import jp.ac.titech.is.cs1.s09hashcode.PhoneNumber;
 /**
  * @author wakita
  * PhoneNumberB の出力の問題を改善した例．
+ * printf はとても便利です。みんな学びましょう。
  */
 class PhoneNumberC implements PhoneNumber {
     private final int areaCode, prefix, number;

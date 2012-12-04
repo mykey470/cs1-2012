@@ -17,7 +17,6 @@ class PhoneNumberE implements PhoneNumber {
         prefix = p;
         number = n;
     }
-    
 
     public boolean equals(Object o) {
         if (o == this) return true;

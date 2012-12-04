@@ -7,7 +7,7 @@ import java.util.regex.MatchResult;
 
 /**
  * @author wakita
- * toString メソッドの効果を確かめるために，lecture05.s09hashcode で実装した PhoneNumber? クラスの実装から敢て toString メソッドの定義を削除した例．
+ * toString の出力に併せて of メソッドを追加．
  */
 class PhoneNumberD implements PhoneNumber {
     private final int areaCode, prefix, number;
