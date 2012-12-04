@@ -39,7 +39,7 @@ public class PhoneNumber4 implements PhoneNumber {
          * @see java.lang.Object#hashCode()
          */
         public int hashCode() {
-            int p0 = 21, p = 31;
+            int p0 = 13, p = 31;
             return ((p0 + areaCode) * p + prefix) * p + number;
         }
 

@@ -31,7 +31,7 @@ public class PhoneNumber6 implements PhoneNumber {
 
         /** 
          * ハッシュ関数をいいかげんに実装すると本来のハッシュの性能が出ないと言われている．本当だろうか？
-         * ここでは試しに常に1を返すハッシュ関数を作成してみた．
+         * PhoneNumber5 よりはましだが、まだ問題は残っているはず．
          * 
          * @see java.lang.Object#hashCode()
          */
