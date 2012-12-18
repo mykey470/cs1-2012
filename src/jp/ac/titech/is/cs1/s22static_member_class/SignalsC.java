@@ -1,15 +1,17 @@
 package jp.ac.titech.is.cs1.s22static_member_class;
 
-import static java.lang.System.*;
+import static java.lang.System.out;
 
-import java.awt.event.*;
-import java.util.*;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 import java.util.List;
-import javax.swing.event.*;
+
+import javax.swing.event.MouseInputAdapter;
+import javax.swing.event.MouseInputListener;
 
 // non-static member class のメモリ使用量を測定
 public class SignalsC {
-    public static List<MouseInputListener> listeners = new Vector<MouseInputListener>();
+    public static List<MouseInputListener> listeners = new ArrayList<MouseInputListener>();
 
     private class ColorListener extends MouseInputAdapter {
         public void mouseClicked(MouseEvent e) { out.println('!'); }

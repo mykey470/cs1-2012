@@ -4,11 +4,11 @@ import static java.lang.System.out;
 
 import org.junit.Test;
 
-public class FibonacciVectorTest {
+public class FibonacciListTest {
 
     @Test
     public void fibonacci() {
-        FibonacciVector v = new FibonacciVector();
+        FibonacciList v = new FibonacciList();
         for (int i = 0; i < 1000; i++) v.add(i);
         
         for (int i = 0; i < v.size() && i < 10; i ++)
@@ -23,3 +23,5 @@ public class FibonacciVectorTest {
         out.println();
     }
 }
+
+

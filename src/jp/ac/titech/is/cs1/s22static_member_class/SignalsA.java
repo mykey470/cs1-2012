@@ -7,6 +7,8 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
+import jp.ac.titech.is.cs1.lib.U;
+
 // non-static member class のメモリ使用量を測定
 public class SignalsA extends JFrame {
 
@@ -22,7 +24,8 @@ public class SignalsA extends JFrame {
         Container pane = getContentPane();
         pane.setLayout(new GridLayout(16, 16));
 
-        for (int r = 0; r < 256; r += 16)
+        U.memoryStart();
+        for (int r = 0; r < 256; r += 16) {
             for (int b = 0; b < 256; b += 16) {
                 int g = 0x00;
                 JButton button = new JButton("★");
@@ -30,14 +33,12 @@ public class SignalsA extends JFrame {
                 button.addMouseListener(new ColorListener(String.format("RGB=(%d,%d,%d)", r, g, b)));
                 pane.add(button);
             }
+            out.printf("メモリ使用量: %d\n", U.memoryStop());
+        }
+        out.printf("ボタン一個あたりのメモリ使用量: %d\n", U.memoryStop() / 256);
 
         this.pack();
         this.setVisible(true);
-        
-        Runtime r = Runtime.getRuntime();
-        r.gc();
-        try { Thread.sleep(3000); } catch (InterruptedException e) {}
-        out.printf("メモリ使用量: %d\n", r.totalMemory() - r.freeMemory());
     }
 
     public static void main(String[] _) {

@@ -45,9 +45,18 @@ public class U {
     }
     
     private static Runtime r = Runtime.getRuntime();
-	
-	public static long memoryUsage() {
-		System.gc();
-		return r.totalMemory() - r.freeMemory();
-	}
+    public static long memoryUsage() {
+        System.gc();
+        return r.totalMemory() - r.freeMemory();
+    }
+
+    private static long memoryUsage;
+    public static void memoryStart() {
+      memoryUsage = memoryUsage();
+    }
+    
+    public static long memoryStop() {
+      return memoryUsage() - memoryUsage;
+    }
+    
 }

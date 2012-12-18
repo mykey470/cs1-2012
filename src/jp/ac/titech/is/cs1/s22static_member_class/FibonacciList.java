@@ -1,13 +1,11 @@
 package jp.ac.titech.is.cs1.s22static_member_class;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 //ベクトルの Iterator を inner class を用いて実装した例
 //iterator は、ベクトル (v) をアクセスするため static inner class として定義できない
-class FibonacciVector implements Iterable<Integer> {
-    List<Integer> v = new Vector<Integer>();
+class FibonacciList implements Iterable<Integer> {
+    List<Integer> v = new ArrayList<Integer>();
 
     public boolean add(int x) { return v.add(x); }
     public void clear() { v.clear(); }
